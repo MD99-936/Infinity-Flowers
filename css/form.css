@@ -1,0 +1,152 @@
+body{
+    background-image: url(../images/rose.png);
+    background-size: cover;
+    font-family: sans-serif;
+}
+.gender{
+	color:black;
+	font-weight:bold;
+	padding-left: 5px;
+	padding-right: 5px;	
+}
+.subTitle{
+	display:block;
+	font-weight:bold;
+	margin-bottom:10px;
+	color:black;
+	margin-left: 10px;
+}
+.signupbox{
+	width:600px;
+	border: 1px solid #eee;
+	padding-left:20px;
+	padding-right:20px;
+	margin: 0px auto;
+	padding-top:20px;
+	font-size:14px;
+	background-color:white;
+	margin-top:350px;
+	margin-bottom:100px;
+}
+.signupbox img{
+	width: 116px;
+    height: 116px;
+    border-radius: 70%;
+	margin-left: 230px;
+	margin-top: -70px;
+}
+	
+.signupbox h1{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-left: 210px;
+}
+.signupbox a:hover
+{
+    cursor: pointer;
+    color: #FF0000;
+}
+.top-header{
+	background-color:white;
+}
+.sub-header {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: #f6f6f6;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+	margin-bottom:40px;
+	position:absolute;
+	top:150px;
+}
+.centered h1{
+	padding-bottom: 30px;
+}
+.centered p span{
+	color:red;
+}
+.centered .fa{
+	margin-right: 20px;
+	font-size:18px;
+	color:black
+}
+
+div.form-item{
+	width:45%;
+	float:right;
+}
+div.form-item input[type="text"],
+div.form-item input[type="email"],
+div.form-item input[type="password"],
+div.form-item input[type="tel"],
+select
+{
+	width:90%;
+	height:40px;
+	margin-bottom:20px;
+	padding-left:10px;
+	border-radius: 10px;
+	border: 1px solid #eeeeee;
+	margin-left: 10px;
+}
+div.form-item.odd{
+	float:left;
+}
+div.form-item.even{
+	float:right;
+}
+div.form-item input[type="radio"]{
+	margin-bottom:20px;
+	margin-left: 10px;
+}
+
+div.form-action.clearFix{
+	clear:both;
+}
+div.form-action{
+	text-align:center;
+	width:100%;
+	margin-top: 50px;
+	
+}
+div.form-action input{
+	font-size:16px;
+	width:120px;
+	height:35px;
+	padding:5px;
+	border-radius: 10px;
+	margin-bottom:20px;
+	background-color:#bc0035;
+	font-weight:bold;
+	color:white;
+	margin-top:20px;
+}
+fieldset{
+	margin-bottom:20px;
+	border:1px solid #eeeeee;
+}
+legend {
+	border: 2px solid #eee;
+	border-radius:10px;
+	width:170px;
+	height: 20px;
+	padding:5px;
+	padding-left:10px;
+	font-weight:bold;
+	background:#bc0035;
+	color:white;
+	margin-bottom:10px;
+}
+label.gender a{
+	text-decoration:none;
+}
+label.gender a:hover{
+	color:#bc0035;
+}
+
+#error{
+	color:red;
+	font-size: 12px;
+}

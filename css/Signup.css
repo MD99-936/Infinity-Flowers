@@ -1,0 +1,36 @@
+.signupbox{
+	width:650px;
+	height:700px;
+}
+.sub-header {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: #f6f6f6;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+	margin-bottom:40px;
+	position:absolute;
+	top:150px;
+}
+.centered h1{
+	padding-bottom: 30px;
+}
+.centered p span{
+	color:red;
+}
+.centered .fa{
+	margin-right: 20px;
+	font-size:18px;
+	color:black
+}
+
+.signupbox a:hover
+{
+    cursor: pointer;
+    color: #FF0000;
+}
+.top-header{
+	background-color:white;
+}
